@@ -28,4 +28,10 @@
     margin: 0.5rem;
     width: 100%;
 }
+.card .img {
+    max-width: 500px;
+    max-height: 325px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
 
