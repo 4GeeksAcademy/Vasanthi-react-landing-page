@@ -10,3 +10,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+@media (min-width: 992px) { 
+    .navbar-brand {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .card-container .card {
+        width: 20rem;
+    }
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    width: 100%;
+}
+
